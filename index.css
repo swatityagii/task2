@@ -26,9 +26,7 @@ body {
   padding-left: 0.5vw;
   padding-right: 0.5vw;
   font-size: small;
-}
-.layout {
-  font-size: 15px;
+  margin-top: 0.1vh;
 }
 .headingm {
   display: flex;
@@ -95,7 +93,9 @@ img {
   .copyright {
     font-size: 28px;
     margin-top: 0.7vh;
-    font-size: 25px;
+  }
+  .menu {
+    margin-top: 0;
   }
   .layout {
     font-size: 32px;
@@ -124,14 +124,14 @@ img {
   .text,
   .menu,
   .copyright {
-    font-size: 23px;
+    font-size: 20px;
   }
   .layout {
     font-size: 27px;
   }
   .secondary_text {
     margin-top: 1.1vh;
-    font-size: 22px;
+    font-size: 20px;
   }
   .hr {
     width: 87.8vw;
@@ -165,7 +165,10 @@ img {
     width: 29vw;
   }
   .layout {
-    font-size: 25px;
+    font-size: 24px;
+  }
+  .menu {
+    font-size: 19px;
   }
   .menu {
     font-size: 21px;
@@ -182,10 +185,10 @@ img {
     margin-top: 0.7vh;
   }
   .layout {
-    font-size: 23px;
+    font-size: 22px;
   }
   .menu {
-    font-size: 20px;
+    font-size: 17px;
   }
   .header {
     gap: 2vw;
@@ -228,5 +231,8 @@ img {
   .project_name {
     margin-top: 1vh;
     margin-bottom: 1vh;
+  }
+  .menu {
+    font-size: 17px;
   }
 }
