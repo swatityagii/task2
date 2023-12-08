@@ -11,7 +11,7 @@ body {
 .header {
   background-color: black;
   color: grey;
-  padding-top: 2.3vh;
+  padding-top: 2.1vh;
   padding-bottom: 2vh;
   padding-left: 4.4vw;
   gap: 0.5vw;
@@ -98,7 +98,7 @@ img {
     margin-top: 0;
   }
   .layout {
-    font-size: 32px;
+    font-size: 37px;
   }
   .project_name {
     font-size: 32px;
@@ -120,14 +120,16 @@ img {
     width: 29vw;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1800px) {
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
   .text,
-  .menu,
   .copyright {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .menu{
+    font-size: 14px;
   }
   .layout {
-    font-size: 27px;
+    font-size: 20px;
   }
   .secondary_text {
     margin-top: 1.1vh;
@@ -152,8 +154,11 @@ img {
   .text {
     font-size: 23px;
   }
+  .heading{
+    font-size: 30px;
+  }
 }
-@media screen and (min-width: 851px) and (max-width: 1201px) {
+@media screen and (min-width: 851px) and (max-width: 1200px) {
   .secondary_text {
     margin-top: 0.9vh;
     font-size: 20px;
@@ -165,18 +170,22 @@ img {
     width: 29vw;
   }
   .layout {
-    font-size: 24px;
+    font-size: 20px;
   }
   .menu {
-    font-size: 19px;
+    font-size: 15px;
+    margin-top: 0.2vh;
   }
-  .menu {
-    font-size: 21px;
+  .heading{
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 850px) {
   .card {
     width: 43.4vw;
+  }
+  .heading{
+    font-size: 28px;
   }
   .box {
     gap: 3vw;
@@ -185,10 +194,10 @@ img {
     margin-top: 0.7vh;
   }
   .layout {
-    font-size: 22px;
+    font-size: 16px;
   }
   .menu {
-    font-size: 17px;
+    font-size: 12px;
   }
   .header {
     gap: 2vw;
