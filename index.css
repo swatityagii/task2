@@ -120,17 +120,17 @@ img {
 @media screen and (min-width: 1440px) and (max-width: 1800px) {
   .text,
   .copyright {
-    font-size: 22px;
+    font-size: 13px;
   }
   .menu {
-    font-size: 26px;
+    font-size: 17px;
     margin-top: 0.2vw;
   }
   .layout {
-    font-size: 30px;
+    font-size: 22px;
   }
   .secondary_text {
-    font-size: 25px;
+    font-size: 22px;
   }
   .hr {
     width: 87.8vw;
@@ -146,10 +146,7 @@ img {
     width: 90vw;
   }
   .project_name {
-    font-size: 28px;
-  }
-  .text {
-    font-size: 25px;
+    font-size: 21px;
   }
   .heading {
     font-size: 36px;
@@ -166,6 +163,9 @@ img {
     font-size: 14px;
     margin-top: 0.2vw;
   }
+  .project_name {
+    font-size: 19px;
+  }
   .heading {
     font-size: 29px;
   }
@@ -173,13 +173,13 @@ img {
     font-size: 17px;
   }
   .project_name {
-    font-size: 19px;
+    font-size: 22px;
   }
   .text {
-    font-size: 12px;
+    font-size: 11px;
   }
   .copyright{
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1023px) {
@@ -197,7 +197,7 @@ img {
   }
   .menu {
     font-size: 15px;
-    margin-top: 0.3vh;
+    margin-top: 0.4vh;
   }
   .heading {
     font-size: 24px;
