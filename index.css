@@ -46,7 +46,7 @@ body {
   opacity: 0.8;
 }
 .secondary_text {
-  color: rgb(129, 126, 126);
+  color:#4e4d4d;
   font-size: 21px;
 }
 .hr {
@@ -99,7 +99,7 @@ img {
     font-size: 32px;
   }
   .project_name {
-    font-size: 32px;
+    font-size: 39px;
   }
   .heading {
     font-size: 48px;
@@ -159,21 +159,27 @@ img {
   .layout {
     font-size: 17px;
   }
+  .hr {
+    width: 87.7vw;
+  }
   .menu {
     font-size: 14px;
     margin-top: 0.2vw;
   }
   .heading {
-    font-size: 25px;
+    font-size: 29px;
   }
   .secondary_text {
     font-size: 17px;
   }
   .project_name {
-    font-size: 17px;
+    font-size: 19px;
   }
   .text {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .copyright{
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1023px) {
@@ -195,6 +201,12 @@ img {
   }
   .heading {
     font-size: 24px;
+  }
+  .text{
+    font-size: 12px;
+  }
+  .copyright{
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -226,7 +238,10 @@ img {
     font-size: 16px;
   }
   .text {
-    font-size: 12px;
+    font-size: 11px;
+  }
+  .copyright{
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 426px) {
@@ -254,13 +269,14 @@ img {
   .copyright {
     padding-top: 3vh;
     padding-bottom: 4vh;
+    font-size: 11px;
   }
   .box {
     margin-bottom: 2vh;
     gap: 0;
   }
   .text {
-    font-size: 12px;
+    font-size: 11px;
   }
   .project_name {
     margin-top: 1vh;
