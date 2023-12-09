@@ -16,17 +16,17 @@ body {
   padding-left: 5vw;
   gap: 0.5vw;
   display: flex;
-  align-items: center;
 }
 .text {
   font-size: small;
   opacity: 0.8;
 }
 .menu {
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
-  font-size: small;
-  margin-top: 0.1vh;
+  font-size: 22px;
+  margin-left: 1.9vw;
+}
+.layout {
+  font-size: 25px;
 }
 .headingm {
   display: flex;
@@ -35,7 +35,6 @@ body {
   gap: 0.5em;
   padding-top: 5vh;
   padding-bottom: 0.3vh;
-  align-items: center;
 }
 .hr2 {
   margin-left: 5.01vw;
@@ -49,7 +48,6 @@ body {
 .secondary_text {
   color: rgb(129, 126, 126);
   font-size: 21px;
-  margin-top: 0;
 }
 .hr {
   margin-left: 5.01vw;
@@ -87,7 +85,7 @@ img {
   opacity: 0.8;
   font-size: small;
 }
-@media screen and (min-width: 1801px) and (max-width: 2550px) {
+@media screen and (min-width: 1801px) and (max-width: 2560px) {
   .text,
   .menu,
   .copyright {
@@ -95,10 +93,10 @@ img {
     margin-top: 0.7vh;
   }
   .menu {
-    margin-top: 0;
+    margin-top: 0.2vw;
   }
   .layout {
-    font-size: 37px;
+    font-size: 32px;
   }
   .project_name {
     font-size: 32px;
@@ -110,8 +108,7 @@ img {
     gap: 0.6vw;
   }
   .secondary_text {
-    margin-top: 0.9vh;
-    font-size: 34px;
+    font-size: 33px;
   }
   .hr {
     width: 90vw;
@@ -120,20 +117,20 @@ img {
     width: 29vw;
   }
 }
-@media screen and (min-width: 1201px) and (max-width: 1800px) {
+@media screen and (min-width: 1440px) and (max-width: 1800px) {
   .text,
   .copyright {
-    font-size: 18px;
+    font-size: 22px;
   }
-  .menu{
-    font-size: 14px;
+  .menu {
+    font-size: 26px;
+    margin-top: 0.2vw;
   }
   .layout {
-    font-size: 20px;
+    font-size: 30px;
   }
   .secondary_text {
-    margin-top: 1.1vh;
-    font-size: 20px;
+    font-size: 25px;
   }
   .hr {
     width: 87.8vw;
@@ -149,19 +146,39 @@ img {
     width: 90vw;
   }
   .project_name {
-    font-size: 26px;
+    font-size: 28px;
   }
   .text {
-    font-size: 23px;
+    font-size: 25px;
   }
-  .heading{
-    font-size: 30px;
+  .heading {
+    font-size: 36px;
   }
 }
-@media screen and (min-width: 851px) and (max-width: 1200px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .layout {
+    font-size: 17px;
+  }
+  .menu {
+    font-size: 14px;
+    margin-top: 0.2vw;
+  }
+  .heading {
+    font-size: 25px;
+  }
   .secondary_text {
-    margin-top: 0.9vh;
-    font-size: 20px;
+    font-size: 17px;
+  }
+  .project_name {
+    font-size: 17px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1023px) {
+  .secondary_text {
+    font-size: 16px;
   }
   .hr {
     width: 90vw;
@@ -170,34 +187,35 @@ img {
     width: 29vw;
   }
   .layout {
-    font-size: 20px;
+    font-size: 18px;
   }
   .menu {
     font-size: 15px;
-    margin-top: 0.2vh;
+    margin-top: 0.3vh;
   }
-  .heading{
-    font-size: 30px;
+  .heading {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 850px) {
   .card {
     width: 43.4vw;
   }
-  .heading{
-    font-size: 28px;
+  .heading {
+    font-size: 22px;
+  }
+  .secondary_text {
+    font-size: 14px;
   }
   .box {
     gap: 3vw;
   }
-  .secondary_text {
-    margin-top: 0.7vh;
-  }
   .layout {
-    font-size: 16px;
+    font-size: 15px;
   }
   .menu {
     font-size: 12px;
+    margin-top: 0.3vh;
   }
   .header {
     gap: 2vw;
@@ -205,25 +223,29 @@ img {
   .project_name {
     margin-top: 1vh;
     margin-bottom: 1vh;
+    font-size: 16px;
+  }
+  .text {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 426px) {
   .card {
     width: 90vw;
   }
+
   .heading {
-    font-size: x-large;
+    font-size: 20px;
     width: fit-content;
   }
-
   .header {
     flex-flow: column;
     justify-content: center;
-    padding-left: 0;
     gap: 2vh;
+    align-items: center;
   }
   .secondary_text {
-    font-size: 18px;
+    font-size: 13px;
   }
   .hr2 {
     margin-top: 1vh;
@@ -237,11 +259,18 @@ img {
     margin-bottom: 2vh;
     gap: 0;
   }
+  .text {
+    font-size: 12px;
+  }
   .project_name {
     margin-top: 1vh;
     margin-bottom: 1vh;
+    font-size: 15px;
   }
   .menu {
-    font-size: 17px;
+    font-size: 12px;
+  }
+  .layout {
+    font-size: 14px;
   }
 }
