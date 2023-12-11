@@ -33,7 +33,7 @@ body {
   flex-wrap: wrap;
   padding-left: 5vw;
   gap: 0.5em;
-  padding-top: 5vh;
+  padding-top: 8vh;
   padding-bottom: 0.3vh;
 }
 .hr2 {
@@ -46,7 +46,7 @@ body {
   opacity: 0.8;
 }
 .secondary_text {
-  color:#4e4d4d;
+  color: #4e4d4d;
   font-size: 21px;
 }
 .hr {
@@ -89,26 +89,26 @@ img {
   .text,
   .menu,
   .copyright {
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 0.7vh;
   }
   .menu {
     margin-top: 0.2vw;
   }
   .layout {
-    font-size: 32px;
+    font-size: 24px;
   }
   .project_name {
-    font-size: 39px;
+    font-size: 28px;
   }
   .heading {
-    font-size: 48px;
+    font-size: 40px;
   }
   .headingm {
     gap: 0.6vw;
   }
   .secondary_text {
-    font-size: 33px;
+    font-size: 28px;
   }
   .hr {
     width: 90vw;
@@ -119,18 +119,18 @@ img {
 }
 @media screen and (min-width: 1440px) and (max-width: 1800px) {
   .text,
+  .menu,
   .copyright {
-    font-size: 13px;
+    font-size: 17px;
   }
   .menu {
-    font-size: 17px;
     margin-top: 0.2vw;
   }
   .layout {
-    font-size: 22px;
+    font-size: 21px;
   }
   .secondary_text {
-    font-size: 22px;
+    font-size: 25px;
   }
   .hr {
     width: 87.8vw;
@@ -146,45 +146,48 @@ img {
     width: 90vw;
   }
   .project_name {
-    font-size: 21px;
+    font-size: 25px;
   }
   .heading {
-    font-size: 36px;
+    font-size: 37px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .text,
+  .menu,
+  .copyright {
+    font-size: 14px;
+  }
+  .card {
+    width: 29vw;
+  }
   .layout {
-    font-size: 17px;
+    font-size: 18px;
   }
   .hr {
-    width: 87.7vw;
+    width: 89.9vw;
   }
   .menu {
-    font-size: 14px;
     margin-top: 0.2vw;
-  }
-  .project_name {
-    font-size: 19px;
-  }
-  .heading {
-    font-size: 29px;
-  }
-  .secondary_text {
-    font-size: 17px;
   }
   .project_name {
     font-size: 22px;
   }
-  .text {
-    font-size: 11px;
+  .heading {
+    font-size: 34px;
   }
-  .copyright{
-    font-size: 11px;
+  .secondary_text {
+    font-size: 22px;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1023px) {
+  .text,
+  .menu,
+  .copyright {
+    font-size: 12px;
+  }
   .secondary_text {
-    font-size: 16px;
+    font-size: 20px;
   }
   .hr {
     width: 90vw;
@@ -193,41 +196,41 @@ img {
     width: 29vw;
   }
   .layout {
-    font-size: 18px;
+    font-size: 16px;
   }
   .menu {
-    font-size: 15px;
     margin-top: 0.4vh;
   }
   .heading {
-    font-size: 24px;
+    font-size: 32px;
   }
-  .text{
-    font-size: 12px;
-  }
-  .copyright{
-    font-size: 12px;
+  .project_name {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 850px) {
+  .text,
+  .menu,
+  .copyright {
+    font-size: 12px;
+  }
   .card {
     width: 43.4vw;
   }
   .heading {
-    font-size: 22px;
+    font-size: 32px;
   }
   .secondary_text {
-    font-size: 14px;
+    font-size: 20px;
   }
   .box {
     gap: 3vw;
   }
   .layout {
-    font-size: 15px;
+    font-size: 16px;
   }
   .menu {
-    font-size: 12px;
-    margin-top: 0.3vh;
+    margin-top: 0.6vh;
   }
   .header {
     gap: 2vw;
@@ -235,22 +238,20 @@ img {
   .project_name {
     margin-top: 1vh;
     margin-bottom: 1vh;
-    font-size: 16px;
-  }
-  .text {
-    font-size: 11px;
-  }
-  .copyright{
-    font-size: 10px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 426px) {
+  .text,
+  .menu,
+  .copyright {
+    font-size: 10px;
+  }
   .card {
     width: 90vw;
   }
-
   .heading {
-    font-size: 20px;
+    font-size: 27px;
     width: fit-content;
   }
   .header {
@@ -260,7 +261,7 @@ img {
     align-items: center;
   }
   .secondary_text {
-    font-size: 13px;
+    font-size: 15px;
   }
   .hr2 {
     margin-top: 1vh;
@@ -269,24 +270,17 @@ img {
   .copyright {
     padding-top: 3vh;
     padding-bottom: 4vh;
-    font-size: 11px;
   }
   .box {
     margin-bottom: 2vh;
     gap: 0;
-  }
-  .text {
-    font-size: 11px;
   }
   .project_name {
     margin-top: 1vh;
     margin-bottom: 1vh;
     font-size: 15px;
   }
-  .menu {
-    font-size: 12px;
-  }
   .layout {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
